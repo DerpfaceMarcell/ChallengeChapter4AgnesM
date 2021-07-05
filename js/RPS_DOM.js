@@ -67,11 +67,11 @@ class Player {
     } else if (playerChoice === Player.choicePaper) {
       //pemain pilih kertas
       if (compChoice === Player.choiceRock) {
-        result = Player.compWins;
+        result = Player.playerWins;
       } else if (compChoice === Player.choicePaper) {
         result = Player.draw;
       } else {
-        result = Player.playerWins;
+        result = Player.compWins;
       }
     } else {
       //pemain pilih gunting
